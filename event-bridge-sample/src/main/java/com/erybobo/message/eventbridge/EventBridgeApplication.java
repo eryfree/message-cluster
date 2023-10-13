@@ -1,13 +1,13 @@
-package com.icekredit.juzi.message.core;
+package com.erybobo.message.eventbridge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoreApplication {
+public class EventBridgeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreApplication.class, args);
+        SpringApplication.run(EventBridgeApplication.class, args);
     }
 
 }
